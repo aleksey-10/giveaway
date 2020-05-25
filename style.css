@@ -1,0 +1,27 @@
+.title {
+  padding-top: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form__input {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.form__submit {
+  text-transform: uppercase;
+}
+
+.number-win {
+  padding-top: 50px;
+  text-align: center;
+}

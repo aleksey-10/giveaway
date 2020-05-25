@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+    crossorigin="anonymous"
+  >
+  <title>RANDOM 2000</title>
+</head>
+
+<body>
+  <h1 class="display-4 title">GIVE AWAY</h1>
+  <section class="container">
+    <form class="form">
+      <input
+        type="number"
+        placeholder="How many people are getting the part?"
+        class="form__input p-3"
+        required
+        min="1"
+      >
+      <button
+        type="submit"
+        class="btn btn-primary p-3 form__submit"
+      >
+        Generate
+      </button>
+    </form>
+    <h2 class="number-win display-3"></h2>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
